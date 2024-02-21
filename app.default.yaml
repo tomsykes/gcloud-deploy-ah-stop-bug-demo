@@ -1,0 +1,8 @@
+## GCP AppEngine config
+runtime: php83
+entrypoint: serve public/index.php
+instance_class: B1
+service: default
+
+manual_scaling:
+  instances: 1
